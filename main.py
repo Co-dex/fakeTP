@@ -82,6 +82,7 @@ class Window(QtWidgets.QWidget):
 
         if not self.isShow:
             print("onAnimationEnd close()")
+            # 自定义你想启动的文件 参考QProcess文档
             target = QtCore.QProcess()
             target.setProgram("msinfo32")
             target.startDetached()
