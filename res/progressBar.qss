@@ -1,0 +1,14 @@
+QProgressBar{
+  height: 32px;
+  background:rgb(54,54,54);
+  border-radius: 16px;
+  text-align:center;   /*文本的位置*/
+  color: rgb(229, 229, 229);  /*文本颜色*/
+
+}
+
+QProgressBar::chunk {
+  border-radius: 16px;
+  background-color:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:0,stop:0 #037cd5,stop:1  #1591d8);
+
+}
