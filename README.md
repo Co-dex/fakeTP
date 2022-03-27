@@ -1,5 +1,5 @@
 # fakeTP
-PySide2(PyQt5) 实现的模拟TP启动器
+PySide2(PyQt5) 实现的模拟TP启动器 demo 请见release
 
 ## HOW TO USE
 1. 修改main.py文件中的启动参数即可完成自定义启动
